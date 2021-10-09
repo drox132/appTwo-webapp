@@ -1,0 +1,11 @@
+.productList-base{
+    text-align: center;
+}
+
+.productList-list{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 28%);
+
+
+}

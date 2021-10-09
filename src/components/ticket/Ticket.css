@@ -1,0 +1,36 @@
+.ticket-base{
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 90%;
+    border: 8px solid brown;
+    border-radius: 20px;
+}
+
+.ticket-titles{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+}
+
+.ticket-list{
+    height: 300px;
+    overflow: auto;
+}
+
+.ticket-description{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-size: 12px;
+    text-align: center;
+}
+
+.ticket-button{
+    padding: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    background-color: #cbdedb;
+    color: darkslategray;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 10px;
+}

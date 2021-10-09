@@ -1,0 +1,4 @@
+.indexPage-content{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
