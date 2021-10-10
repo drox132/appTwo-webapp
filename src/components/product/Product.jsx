@@ -18,7 +18,7 @@ const Product = ({product, selected}) =>{
             <p className="product-price">{product.price}$</p>
             <img
                 className="product-image"
-                src={product.url} />
+                src={product.image} />
             <button
                 className="product-button"
                 onClick={(e) => appendProduct(product)} >comprar</button>

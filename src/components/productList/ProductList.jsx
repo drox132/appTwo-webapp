@@ -9,7 +9,7 @@ import "./ProductList.css";
 const ProductList = () =>{
 
     const {appendProduct} = useContext(ProductToBuyContext);
-
+/*
     const products = [
         {
             name: "rubik cube",
@@ -27,7 +27,9 @@ const ProductList = () =>{
             url: "https://images.vexels.com/media/users/3/136262/isolated/preview/e04bd9042f1695f0844fbe935b858d9c-icono-de-teclado-plano.png"
         }
     ]
-    /*
+
+ */
+
     const [products, setProducts] = useState([])
 
     const getAllProducts = async () =>{
@@ -42,7 +44,7 @@ const ProductList = () =>{
     },[])
 
 
-     */
+
 
     return (
         <div className="productList-base">
